@@ -49,5 +49,8 @@ module.exports = {
 
     // Prettier config - When extending, this must go last
     prettier: require('./lib/config/prettier'),
+
+    // custom for Thanx
+    'just-no-hardcoded-content': require('./lib/config/just-no-hardcoded-content'),
   },
 };
